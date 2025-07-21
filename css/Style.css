@@ -1,0 +1,152 @@
+/* Estilo general inspirado en Matrix y Anonymous */
+body {
+    background-color: #000;
+    color: #eee;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url('../img/matrix-bg.gif');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.matrix-text {
+    color: #0f0;
+}
+
+.matrix-text-glow {
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0, 0 0 10px #0f0, 0 0 15px #0f0;
+}
+
+hr.green {
+    border-color: #0f0;
+    max-width: 100px;
+    border-width: 3px;
+    opacity: 1;
+}
+
+/* Navegación */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    border-bottom: 1px solid #0f0;
+}
+
+.nav-link {
+    color: #0f0 !important;
+    text-shadow: 0 0 2px #0f0;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #fff !important;
+    text-shadow: 0 0 5px #fff;
+}
+
+/* Hero Section (Página de Inicio) */
+.hero-section {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.9) 100%);
+}
+
+.hero-image {
+    max-width: 250px;
+    filter: drop-shadow(0 0 15px #0f0);
+}
+
+/* Contenido general y tarjetas */
+.content-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px 20px;
+    border: 1px solid #0a0;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+}
+
+.threat-card {
+    background-color: #050505;
+    border: 1px solid #0f0;
+    color: #eee;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.threat-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px #0f0;
+}
+
+.threat-card .card-img-top {
+    width: 80px;
+    height: 80px;
+    margin: 20px auto 10px;
+    object-fit: contain;
+}
+
+.detailed-info {
+    font-size: 0.9em;
+    border-left: 2px solid #0f0;
+    padding-left: 10px;
+    background-color: rgba(0, 255, 0, 0.05);
+}
+
+/* Carrusel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+.carousel-img {
+    filter: grayscale(50%) brightness(0.8);
+}
+
+/* Consejos y Formulario */
+.list-group-item {
+    background-color: transparent;
+    color: #eee;
+    border-color: rgba(0, 255, 0, 0.2);
+}
+
+.form-control {
+    background-color: #111;
+    color: #0f0;
+    border: 1px solid #0f0;
+}
+
+.form-control:focus {
+    background-color: #000;
+    color: #0f0;
+    border-color: #fff;
+    box-shadow: 0 0 10px #0f0;
+}
+
+.form-control::placeholder {
+    color: #090;
+}
+
+.form-floating > label {
+    color: #0f0;
+}
+
+.btn-primary {
+    background-color: #0f0;
+    border-color: #0f0;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000;
+}
+
+/* Modal */
+.modal-content {
+    background-color: #000;
+    border: 1px solid #0f0;
+    color: #eee;
+}
+.modal-header, .modal-footer {
+    border-bottom-color: #0f0;
+    border-top-color: #0f0;
+}
